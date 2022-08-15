@@ -2,6 +2,11 @@
 <html>
 <head>
   <style>
+
+mark {
+        background: linear-gradient(transparent 80%, #61c877 0%);
+      }   
+
 table {
 font-family: "メイリオ", sans-serif;/* フォントのスタイルを指定する */
 border-collapse: collapse; /* 隣接するセルの罫線を重ねて表示する */
@@ -13,6 +18,9 @@ text-align: left; /* インライン要素の位置を指定する */
 padding: 8px; /* 要素の余白を指定する(上下左右) */
 }
 </style>
+
+
+
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" type="text/css" href="HTML練習.css" />
     <title>HTMLの練習!!</title>
@@ -64,6 +72,32 @@ padding: 8px; /* 要素の余白を指定する(上下左右) */
         <option value="普通"</option>
           <option value="少し悪い"</option>
             <option value="とても悪い"</option>
+  </datalist>
+
+
+  <br />
+  <progress max="1" id="pg"></progress>
+
+<input type="color" />
+
+<p>
+     あなたは
+  <abbr title="ハイパーテキストマークアップランゲージ">HTML</abbr>
+をごぞんじでしょうか
+</p>
+
+<del>また明日会いましょう</del>
+<ins>明後日会いましょう</ins>
+
+
+<mark>mark要素は文字を目立たせるために使います</mark>
+
+<marquee behavior="scroll" scrollamount="6"
+          >テキストがスクロールします</marquee
+        >
+        <marquee behavior="slide">テキストが端で停止します。</marquee>
+        <marquee direction="up">テキストが下から上にスクロールします。</marquee>
+
 </fieldset>
 
 </body>
