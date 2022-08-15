@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+table {
+font-family: "メイリオ", sans-serif;/* フォントのスタイルを指定する */
+border-collapse: collapse; /* 隣接するセルの罫線を重ねて表示する */
+width: 40%; /* 要素の横幅を指定する */
+}
+td, th {
+border: 1px solid #000000; /* 境界線を実線で指定する */
+text-align: left; /* インライン要素の位置を指定する */
+padding: 8px; /* 要素の余白を指定する(上下左右) */
+}
+</style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="HTML練習.css" />
+    <title>HTMLの練習!!</title>
+</head>
+<body>
+  <h1>HTMLの練習!!</h1>
+  <font color = "#ECF079"><h1>文字の色を変えてHTML練習</h1></font>
+<a href="https://kantandays.com/html-ahref/"　target="_blank">リンクのやり方</a>
+<u>アンダーラインのやり方</u>
+  <p>
+    <font color = "#ECF079">文字の色も変えれるよ！</font>
+  <p style="background-color:#ECF079">
+    <font color = "#000000"><a href="https://kantandays.com/html-ahref/"　target="_blank">背景の色を変えてリンクも貼れるよ！</a></font>
+  </p>
+  <p style="background-color:#00FF00">
+    <font color = "#000000">テキストの背景の色も変えることができる</font>
+    </p>
+<table border="1">
+  <thead><tr><th>見出し１</th><th>見出し２</th><th>見出し３</th></tr></thead>
+    <tfoot><td colspan="3">テーブルのフッターです。</td></tfoot>
+  <caption>テーブル（表）のタイトル</caption>
+  <td rowspan="4">連結した左の列</td>
+  <td colspan="2">遊びに行く情報</td>
+  <tr><td>日にち</td><td>8月18日</td></tr>
+  <tr><td>時刻</td><td>午前10時</td></tr>
+  <tr><td>場所</td><td>近くの公園</td></tr>
+</table>
+<div class="readmore">
+    <input id="check1" class="readmore-check" type="checkbox">
+</div>
+    <table border="1">
+    <caption>テーブル（表）のタイトル</caption>
+    <tr><td bgcolor="#fffff0">なんか</td><td>なんだろう</td></tr>
+    <tr><td bgcolor="#fffff0">なんか</td><td>なんだろう</td></tr>
+    <tr><td bgcolor="#fffff0">なんだ</td><td>なんだろう</td></tr>
+    <tr><td bgcolor="#fffff0">なんだ</td><td>なんだろう</td></tr>
+    <tr><td bgcolor="#fffff0">なんだ</td><td>なんだろう</td></tr>
+  </table>
+  <a href="https://style.potepan.com/articles/22321.html"><button>ボタン</button></a>
+
+<fieldset>
+  <legend>今日の機嫌</legend>
+
+  <label for="htmltags">今日の機嫌はどうですか？</label>
+  <input list="tags"/>
+  <datalist id="tags">
+    <option value="とても良い"</option>
+      <option value="少し良い"</option>
+        <option value="普通"</option>
+          <option value="少し悪い"</option>
+            <option value="とても悪い"</option>
+</fieldset>
+
+</body>
+</html>
