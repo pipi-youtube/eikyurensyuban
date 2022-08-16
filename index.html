@@ -28,7 +28,7 @@ padding: 8px; /* 要素の余白を指定する(上下左右) */
 <body>
   <h1>HTMLの練習!!</h1>
   <font color = "#ECF079"><h1>文字の色を変えてHTML練習</h1></font>
-<a href="https://kantandays.com/html-ahref/"　target="_blank">リンクのやり方</a>
+<a href="https://kantandays.com/html-ahref/" target="_blank">リンクのやり方</a>
 <u>アンダーラインのやり方</u>
   <p>
     <font color = "#ECF079">文字の色も変えれるよ！</font>
@@ -97,8 +97,20 @@ padding: 8px; /* 要素の余白を指定する(上下左右) */
         >
         <marquee behavior="slide">テキストが端で停止します。</marquee>
         <marquee direction="up">テキストが下から上にスクロールします。</marquee>
-
 </fieldset>
 
+<dialog id="dialog">
+  <p>そんなうまい話があるわけないだろ</p>
+
+  <p>だましてごめん</p>
+  <button type="button" onclick="document.getElementById('dialog').close();">
+   閉じる
+  </button>
+</dialog>
+<button type="button" onclick="document.getElementById('dialog').show();">
+  このボタンを押して1日で10万稼ぐ方法を見る
+</button>
+
+<a href="https://web-camp.io/magazine/archives/87172"><img src="https://csshtml.work/wp-content/uploads/3.jpg"></a>
 </body>
 </html>
