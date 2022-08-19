@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel=”stylesheet”href=”CSS練習.css”>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="CSS練習.css" />
+    <title>HTMLの練習!!</title>    
+  </head>
+<body>
+  <h1>HTMLの練習!!</h1>
+  <font color = "#ECF079"><h1>文字の色を変えてHTML練習</h1></font>
+<a href="https://kantandays.com/html-ahref/" target="_blank">リンクのやり方</a>
+<u>アンダーラインのやり方</u>
+  <p>
+    <font color = "#ECF079">文字の色も変えれるよ！</font>
+  <p style="background-color:#ECF079">
+    <font color = "#000000"><a href="https://kantandays.com/html-ahref/"　target="_blank">背景の色を変えてリンクも貼れるよ！</a></font>
+  </p>
+  <p style="background-color:#00FF00">
+    <font color = "#000000">テキストの背景の色も変えることができる</font>
+    </p>
+<table border="1">
+  <thead><tr><th>見出し１</th><th>見出し２</th><th>見出し３</th></tr></thead>
+    <tfoot><td colspan="3">テーブルのフッターです。</td></tfoot>
+  <caption>テーブル（表）のタイトル</caption>
+  <td rowspan="4">連結した左の列</td>
+  <td colspan="2">遊びに行く情報</td>
+  <tr><td>日にち</td><td>8月18日</td></tr>
+  <tr><td>時刻</td><td>午前10時</td></tr>
+  <tr><td>場所</td><td>近くの公園</td></tr>
+</table>
+<div class="readmore">
+    <input id="check1" class="readmore-check" type="checkbox">
+</div>
+    <table border="1">
+    <caption>テーブル（表）のタイトル</caption>
+    <tr><td bgcolor="#fffff0">なんか</td><td>なんだろう</td></tr>
+    <tr><td bgcolor="#fffff0">なんか</td><td>なんだろう</td></tr>
+    <tr><td bgcolor="#fffff0">なんだ</td><td>なんだろう</td></tr>
+    <tr><td bgcolor="#fffff0">なんだ</td><td>なんだろう</td></tr>
+    <tr><td bgcolor="#fffff0">なんだ</td><td>なんだろう</td></tr>
+  </table>
+  <a href="https://style.potepan.com/articles/22321.html"><button>ボタン</button></a>
+
+<fieldset>
+  <legend>今日の機嫌</legend>
+
+  <label for="htmltags">今日の機嫌はどうですか？</label>
+  <input list="tags"/>
+  <datalist id="tags">
+    <option value="とても良い"</option>
+      <option value="少し良い"</option>
+        <option value="普通"</option>
+          <option value="少し悪い"</option>
+            <option value="とても悪い"</option>
+  </datalist>
+
+
+  <br />
+  <progress max="1" id="pg"></progress>
+
+<input type="color" />
+
+<p>
+     あなたは
+  <abbr title="ハイパーテキストマークアップランゲージ">HTML</abbr>
+をごぞんじでしょうか
+</p>
+
+<del>また明日会いましょう</del>
+<ins>明後日会いましょう</ins>
+
+
+<mark>mark要素は文字を目立たせるために使います</mark>
+
+<marquee behavior="scroll" scrollamount="6"
+          >テキストがスクロールします</marquee
+        >
+        <marquee behavior="slide">テキストが端で停止します。</marquee>
+        <marquee direction="up">テキストが下から上にスクロールします。</marquee>
+</fieldset>
+
+<dialog id="dialog">
+  <p>そんなうまい話があるわけないだろ</p>
+
+  <p>だましてごめん</p>
+  <button type="button" onclick="document.getElementById('dialog').close();">
+   閉じる
+  </button>
+</dialog>
+<button type="button" onclick="document.getElementById('dialog').show();">
+  このボタンを押して1日で10万稼ぐ方法を見る
+</button>
+<a href="https://web-camp.io/magazine/archives/87172"><img src="https://csshtml.work/wp-content/uploads/3.jpg"></a>
+
+<form action="hoge.cgi" method="POST" enctype="multipart/form-data">
+  住所：<input name="jusho" size=40><br>
+  氏名：<input name="address" size=20><br>
+  <input type=submit value="送信">
+  <input type=reset  value="取消">
+  </form>
+
+入力欄１：<input name="box1"><br>
+入力欄２：<input name="box2" size=30><br>
+入力欄３：<input name="box3" size=10 value="Your name"><br>
+入力欄４：<input name="box4" size=5 maxlength=4><br>
+
+パスワード：<input type=password name="passwd" size=10 maxlength=8><br>
+
+<input type=checkbox name=check value="りんご">りんご　　
+<input type=checkbox name=check value="いちご">いちご　　
+<input type=checkbox name=check value="もも">もも　　
+<input type=checkbox name=check value="なし">なし
+
+<input type=radio name=yasai value="ほうれんそう">ほうれんそう　　
+<input type=radio name=yasai value="だいこん">だいこん　　
+<input type=radio name=yasai value="ねぎ" checked>ねぎ　　
+<input type=radio name=yasai value="キャベツ">キャベツ
+
+ファイル名：<input type=file name="fname" size=30>
+
+送信はここをクリック→<input type=image src="flower.jpg" align=middle>
+
+<input type=reset value="取り消し">
+
+血液型：
+<select name="bloodtype">
+<option value="A">Ａ型
+<option value="O">Ｏ型
+<option value="B">Ｂ型
+<option value="AB">AB型
+</select>
+<br>
+
+好きな果物：
+<select name="fruits" size=4 multiple>
+<option value="りんご">りんご
+<option value="いちご">いちご
+<option value="もも">もも
+<option value="なし">なし
+<option value="さくらんぼ">さくらんぼ
+<option value="バナナ">バナナ
+<option value="パイナップル">パイナップル
+</select>
+
+<textarea name=tbox2 rows=3 cols=50 wrap=hard>
+  あらかじめ文字を入れておくことができます。
+  </textarea>
+</body>
+</html>
